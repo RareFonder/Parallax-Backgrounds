@@ -15,5 +15,10 @@ backgroundLayer4.src = 'https://stackblitz.com/files/web-platform-6guvtw/github/
 const backgroundLayer5 = new Image();
 backgroundLayer5.src = 'https://stackblitz.com/files/web-platform-6guvtw/github/RareFonder/Parallax-Backgrounds/main/layer-5.png'
 
+const animate = () => {
+  ctx.drawImage(backgroundLayer4, 0, 0); 
+  requestAnimationFrame(animate);
+}
+animate();
 
 
