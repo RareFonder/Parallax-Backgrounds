@@ -44,7 +44,7 @@ window.onload = () => {
       ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
       ctx.drawImage(this.image, this.x + this.width, this.y, this.width, this.height); 
     }
-  }
+  };
 
   const layer1 = new Layer(backgroundLayer1, 0.2);
   const layer2 = new Layer(backgroundLayer2, 0.3);
